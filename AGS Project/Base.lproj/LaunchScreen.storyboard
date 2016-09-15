@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXW-fb-NB2">
+                                <rect key="frame" x="237" y="341" width="127" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="127" id="A4e-PW-yil"/>
+                                    <constraint firstAttribute="height" constant="31" id="XY4-FG-bZ0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Copy Right Reserved by Venkat, AGS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I6P-CP-SLi">
+                                <rect key="frame" x="147" y="524" width="306" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="4tR-Mg-jeA"/>
+                                    <constraint firstAttribute="width" constant="306" id="S0U-vF-z2L"/>
+                                    <constraint firstAttribute="width" secondItem="I6P-CP-SLi" secondAttribute="height" multiplier="102:7" id="qlB-HJ-ufR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Icon-App-83.5x83.5-2x" translatesAutoresizingMaskIntoConstraints="NO" id="9oh-lX-T2s">
+                                <rect key="frame" x="225" y="149" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="QNW-Qi-DuA"/>
+                                    <constraint firstAttribute="height" constant="150" id="t9Y-si-vSg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-Governance" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3T-Xo-GNt">
+                                <rect key="frame" x="219" y="408" width="163" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="163" id="9ui-Nj-38G"/>
+                                    <constraint firstAttribute="height" constant="28" id="UR4-h1-b4W"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x3T-Xo-GNt" firstAttribute="top" secondItem="xXW-fb-NB2" secondAttribute="bottom" constant="36" id="2Y2-lQ-D1a"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="I6P-CP-SLi" secondAttribute="bottom" constant="55" id="8MT-gt-vI7"/>
+                            <constraint firstItem="9oh-lX-T2s" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Eev-mO-QIW"/>
+                            <constraint firstItem="I6P-CP-SLi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Wk0-ga-eiX"/>
+                            <constraint firstItem="9oh-lX-T2s" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="129" id="esX-1P-a7d"/>
+                            <constraint firstItem="xXW-fb-NB2" firstAttribute="top" secondItem="9oh-lX-T2s" secondAttribute="bottom" constant="42" id="jux-Bj-q5e"/>
+                            <constraint firstItem="xXW-fb-NB2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nw9-Ax-RRb"/>
+                            <constraint firstItem="x3T-Xo-GNt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zc7-So-XBA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon-App-83.5x83.5-2x" width="167" height="167"/>
+    </resources>
+</document>

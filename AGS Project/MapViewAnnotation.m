@@ -2,8 +2,7 @@
 //  MapViewAnnotation.m
 //  MapViewExample1
 //
-//  Created by Ravi Shankar on 04/01/14.
-//  Copyright (c) 2014 Ravi Shankar. All rights reserved.
+
 //
 
 #import "MapViewAnnotation.h"
